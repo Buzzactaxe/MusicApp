@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BackgroundLayout"
+    android:paddingTop="5dp"
+    tools:context=".RockActivity">
+
+    <ImageView
+        android:id="@+id/LPalbum"
+        style="@style/album_image_view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/meteora" />
+
+    <View
+        android:id="@+id/divider_main_1"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="237dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/linkinPark"
+        style="@style/album_artist_textview_top"
+        android:layout_toEndOf="@id/LPalbum"
+        android:layout_toRightOf="@id/LPalbum"
+        android:text="@string/linkin_park"
+         />
+
+    <View
+        android:id="@+id/divider_main_2"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="235dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/linkinPark" />
+
+
+    <TextView
+        android:id="@+id/hybridTheory"
+        style="@style/album_artist_textview_bottom"
+        android:layout_below="@id/linkinPark"
+        android:layout_toEndOf="@id/LPalbum"
+        android:layout_toRightOf="@id/LPalbum"
+        android:text="@string/LP_theory"
+        />
+
+    <View
+        android:id="@+id/divider_main_3"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/LPalbum"
+        android:layout_marginBottom="5dp"/>
+
+    <ImageView
+        android:id="@+id/ffaalbum"
+        style="@style/album_image_view"
+        android:layout_below="@id/divider_main_3"
+        android:src="@drawable/skin_bones" />
+
+    <View
+        android:id="@+id/divider_main_4"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="235dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/ffaalbum" />
+
+    <TextView
+        android:id="@+id/FooFighters"
+        style="@style/album_artist_textview_top"
+        android:layout_toEndOf="@id/ffaalbum"
+        android:layout_toRightOf="@id/ffaalbum"
+        android:layout_below="@id/divider_main_4"
+        android:text="@string/foo_fighters" />
+
+    <View
+        android:id="@+id/divider_main_5"
+        style="@style/DividerBarsAlbums"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/FooFighters"/>
+
+    <TextView
+        android:id="@+id/textview"
+        style="@style/album_artist_textview_bottom"
+        android:layout_height="56dp"
+        android:layout_below="@id/FooFighters"
+        android:layout_toEndOf="@id/ffaalbum"
+        android:layout_toRightOf="@id/ffaalbum"
+        android:text="@string/foo" />
+
+    <View
+        android:id="@+id/divider_main_6"
+        style="@style/DividerBarsAlbums"
+        android:layout_below="@id/textview"
+        android:layout_toEndOf="@id/ffaalbum"
+        android:layout_toRightOf="@id/ffaalbum" />
+
+
+
+
+</RelativeLayout>

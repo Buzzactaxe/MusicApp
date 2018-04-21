@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BackgroundLayout"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/soundwave"
+        style="@style/activity_main_image_view"/>
+
+    <View
+        android:id="@+id/divider_main_1"
+        android:layout_below="@id/soundwave"
+        style="@style/DividerBar1" />
+
+    <TextView
+        android:id="@+id/rock"
+        style="@style/MainTextView"
+        android:layout_below="@+id/divider_main_1"
+        android:fontFamily="@font/amatic_sc_bold"
+        android:text="Rock" />
+
+    <View
+        android:id="@+id/divider_main_2"
+        android:layout_below="@id/rock"
+        style="@style/DividerBars" />
+
+    <TextView
+        android:id="@+id/Pop"
+        style="@style/MainTextView"
+        android:layout_below="@+id/divider_main_2"
+        android:fontFamily="@font/amatic_sc_bold"
+        android:text="Pop" />
+
+    <View
+        android:id="@+id/divider_main_3"
+        android:layout_below="@id/Pop"
+        style="@style/DividerBars" />
+
+    <TextView
+        android:id="@+id/Metal"
+        style="@style/MainTextView"
+        android:layout_below="@+id/divider_main_3"
+        android:fontFamily="@font/amatic_sc_bold"
+        android:text="Metal" />
+
+    <View
+        android:id="@+id/divider_main_4"
+        android:layout_below="@id/Metal"
+        style="@style/DividerBars" />
+
+    <TextView
+        android:id="@+id/HipHop"
+        style="@style/MainTextView"
+        android:layout_below="@+id/divider_main_4"
+        android:fontFamily="@font/amatic_sc_bold"
+        android:text="Hip Hop" />
+
+    <View
+        android:id="@+id/divider_main_5"
+        android:layout_below="@id/HipHop"
+        style="@style/DividerBars" />
+
+    <ImageView
+        android:id="@+id/pausbutton"
+        style="@style/PauseButton"
+        android:layout_width="54dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_pause_black_24dp" />
+
+    <ImageView
+        android:id="@+id/playbutton"
+        style="@style/PlayButton"
+        android:layout_width="52dp"
+        android:layout_height="54dp"
+        android:src="@drawable/ic_play_arrow_black_24dp" />
+
+</RelativeLayout>

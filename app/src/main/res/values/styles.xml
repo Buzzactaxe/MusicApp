@@ -1,0 +1,135 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Background style -->
+    <style name="BackgroundLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Main Activity first divider bar style -->
+    <style name="DividerBar1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@android:color/background_dark</item>
+    </style>
+
+    <!-- Main Activity divider bar style -->
+    <style name="DividerBars">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@android:color/background_dark</item>
+    </style>
+
+    <!-- album divider bar style -->
+    <style name="DividerBarsAlbums">
+        <item name="android:layout_width">235dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@android:color/background_dark</item>
+    </style>
+
+    <!-- Genre ImageView activity_main -->
+    <style name="activity_main_image_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/soundwave</item>
+    </style>
+
+    <!-- Style for the activity_main textViews -->
+    <style name="MainTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorText_Icons</item>
+        <item name="android:fontFamily">@font/amatic_sc_bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!-- Style for the pause button -->
+    <style name="PauseButton">
+        <item name="android:layout_width">54dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginStart">107dp</item>
+        <item name="android:layout_marginLeft">107dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+
+    </style>
+
+    <!-- Style for the play button -->
+    <style name="PlayButton">
+        <item name="android:layout_width">54dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginEnd">107dp</item>
+        <item name="android:layout_marginRight">107dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+
+    <!-- Image View -->
+    <style name="album_image_view">
+        <item name="android:layout_width">125dp</item>
+        <item name="android:layout_height">123dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <!-- Album textViews -->
+    <style name="album_artist_textview_top">
+        <item name= "android:layout_width">match_parent</item>
+        <item name= "android:layout_height">60dp</item>
+        <item name="android:fontFamily">@font/amatic_sc_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorText_Icons</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+    <!-- Album textViews -->
+    <style name="album_artist_textview_bottom">
+        <item name= "android:layout_width">match_parent</item>
+        <item name= "android:layout_height">60dp</item>
+        <item name="android:fontFamily">@font/amatic_sc_bold</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorText_Icons</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+    <!-- Song Items Relative Layout -->
+    <style name="SongItemRelativeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingStart">16dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

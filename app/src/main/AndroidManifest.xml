@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.musicapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_play_arrow_black_24dp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_play_arrow_black_24dp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RockActivity"
+            android:configChanges="orientation"
+            android:label="@string/activity_Rock"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RockAlbum1Activity"
+            android:configChanges="orientation"
+            android:label="@string/rock_album1"
+            android:parentActivityName=".RockActivity" />
+        <activity
+            android:name=".RockAlbum2Activity"
+            android:configChanges="orientation"
+            android:label="@string/rock_album2"
+            android:parentActivityName=".RockActivity" />
+        <activity
+            android:name=".PopActivity"
+            android:configChanges="orientation"
+            android:label="@string/activity_pop"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PopAlbum1Activity"
+            android:configChanges="orientation"
+            android:label="@string/pop_album1"
+            android:parentActivityName=".PopActivity" />
+        <activity
+            android:name=".PopAlbum2Activity"
+            android:configChanges="orientation"
+            android:label="@string/pop_album2"
+            android:parentActivityName=".PopActivity" />
+        <activity
+            android:name=".MetalActivity"
+            android:configChanges="orientation"
+            android:label="@string/activity_metal"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MetalAlbum1Activity"
+            android:configChanges="orientation"
+            android:label="@string/metal_album1"
+            android:parentActivityName=".MetalActivity" />
+        <activity
+            android:name=".MetalAlbum2Activity"
+            android:configChanges="orientation"
+            android:label="@string/metal_album2"
+            android:parentActivityName=".MetalActivity" />
+        <activity
+            android:name=".HipHopActivity"
+            android:configChanges="orientation"
+            android:label="@string/activity_hiphop"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HipHopAlbum1Activity"
+            android:configChanges="orientation"
+            android:label="@string/hiphop_album1"
+            android:parentActivityName=".HipHopActivity" />
+        <activity
+            android:name=".HipHopAlbum2Activity"
+            android:configChanges="orientation"
+            android:label="@string/hiphop_album2"
+            android:parentActivityName=".HipHopActivity" />
+
+    </application>
+
+</manifest>
