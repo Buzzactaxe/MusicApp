@@ -45,7 +45,7 @@ public class RockAlbum1Activity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                Toast.makeText(RockAlbum1Activity.this, "In Memory of Chester, RIP.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(RockAlbum1Activity.this, "In Memory of Chester, RIP.", Toast.LENGTH_LONG).show();
             }
         });
 

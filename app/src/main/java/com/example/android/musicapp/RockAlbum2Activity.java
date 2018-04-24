@@ -48,7 +48,7 @@ public class RockAlbum2Activity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                Toast.makeText(RockAlbum2Activity.this, "Long Live Live", Toast.LENGTH_SHORT).show();
+                Toast.makeText(RockAlbum2Activity.this, "What would the Foo Fighters be called if they went into plumbing business ?\n" + "They would be called the Poo Fighters.", Toast.LENGTH_LONG).show();
             }
         });
 

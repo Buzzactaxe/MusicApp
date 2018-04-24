@@ -1,9 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".PopActivity">
+    style="@style/BackgroundLayout"
+    android:paddingTop="5dp"
+    tools:context=".RockActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:id="@+id/TBalbum"
+        style="@style/album_image_view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/futuresex" />
+
+    <View
+        android:id="@+id/divider_main_1"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/TBalbum" />
+
+    <TextView
+        android:id="@+id/timberlake"
+        style="@style/album_artist_textview_top"
+        android:layout_toEndOf="@id/TBalbum"
+        android:layout_toRightOf="@id/TBalbum"
+        android:text="@string/justin" />
+
+    <View
+        android:id="@+id/divider_main_2"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/timberlake"
+        android:layout_toEndOf="@+id/TBalbum" />
+
+
+    <TextView
+        android:id="@+id/futureSex"
+        style="@style/album_artist_textview_bottom"
+        android:layout_below="@id/timberlake"
+        android:layout_toEndOf="@id/TBalbum"
+        android:layout_toRightOf="@id/TBalbum"
+        android:text="@string/justin_future" />
+
+    <View
+        android:id="@+id/divider_main_3"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TBalbum"
+        android:layout_marginBottom="5dp" />
+
+    <ImageView
+        android:id="@+id/overEX"
+        style="@style/album_image_view"
+        android:layout_below="@id/divider_main_3"
+        android:src="@drawable/overexposed" />
+
+    <View
+        android:id="@+id/divider_main_4"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="match_parent"
+        android:layout_alignTop="@+id/overEX"
+        android:layout_toEndOf="@+id/TBalbum" />
+
+    <TextView
+        android:id="@+id/maroon_5"
+        style="@style/album_artist_textview_top"
+        android:layout_below="@id/divider_main_4"
+        android:layout_toEndOf="@id/overEX"
+        android:layout_toRightOf="@id/overEX"
+        android:text="@string/maroon_5" />
+
+    <View
+        android:id="@+id/divider_main_5"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="match_parent"
+        android:layout_below="@id/maroon_5"
+        android:layout_toEndOf="@id/overEX" />
+
+    <TextView
+        android:id="@+id/textview"
+        style="@style/album_artist_textview_bottom"
+        android:layout_height="56dp"
+        android:layout_below="@id/maroon_5"
+        android:layout_toEndOf="@id/overEX"
+        android:layout_toRightOf="@id/overEX"
+        android:text="@string/maroonAlb" />
+
+    <View
+        android:id="@+id/divider_main_6"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/overEX" />
+
+</RelativeLayout>

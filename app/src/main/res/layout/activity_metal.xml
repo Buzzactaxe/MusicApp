@@ -1,9 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MetalActivity">
+    style="@style/BackgroundLayout"
+    android:paddingTop="5dp"
+    tools:context=".RockActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:id="@+id/PWDalbum"
+        style="@style/album_image_view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/horizons" />
+
+    <View
+        android:id="@+id/divider_main_1"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/parkwayDrive"
+        style="@style/album_artist_textview_top"
+        android:layout_toEndOf="@id/PWDalbum"
+        android:layout_toRightOf="@id/PWDalbum"
+        android:text="@string/parkway" />
+
+    <View
+        android:id="@+id/divider_main_2"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/parkwayDrive"
+        android:layout_toEndOf="@+id/PWDalbum" />
+
+
+    <TextView
+        android:id="@+id/horizons"
+        style="@style/album_artist_textview_bottom"
+        android:layout_below="@id/parkwayDrive"
+        android:layout_toEndOf="@id/PWDalbum"
+        android:text="@string/PWD_alb" />
+
+    <View
+        android:id="@+id/divider_main_3"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/PWDalbum"
+        android:layout_marginBottom="5dp" />
+
+    <ImageView
+        android:id="@+id/clayman"
+        style="@style/album_image_view"
+        android:layout_below="@id/divider_main_3"
+        android:src="@drawable/clayman" />
+
+    <View
+        android:id="@+id/divider_main_4"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="match_parent"
+        android:layout_alignTop="@+id/clayman" />
+
+    <TextView
+        android:id="@+id/in_flames"
+        style="@style/album_artist_textview_top"
+        android:layout_below="@id/divider_main_4"
+        android:layout_toEndOf="@id/clayman"
+        android:layout_toRightOf="@id/clayman"
+        android:text="@string/in_flames" />
+
+    <View
+        android:id="@+id/divider_main_5"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/in_flames"
+        android:layout_toEndOf="@id/clayman" />
+
+    <TextView
+        android:id="@+id/textview"
+        style="@style/album_artist_textview_bottom"
+        android:layout_height="56dp"
+        android:layout_below="@id/in_flames"
+        android:layout_toEndOf="@id/clayman"
+        android:text="@string/maroonAlb" />
+
+    <View
+        android:id="@+id/divider_main_6"
+        style="@style/DividerBarsAlbums"
+        android:layout_width="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textview" />
+
+</RelativeLayout>
