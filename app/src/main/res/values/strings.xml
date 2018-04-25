@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">MusicApp</string>
-    <string name="activity_Rock">Rock</string>
-    <string name="activity_pop">Pop</string>
-    <string name="activity_metal">Metal</string>
-    <string name="activity_hiphop">Hip Hop</string>
+    <string name="activity_Rock">Rock Albums</string>
+    <string name="activity_pop">Pop Albums</string>
+    <string name="activity_metal">Metal Albums</string>
+    <string name="activity_hiphop">Hip Hop Albums</string>
 
 
 
