@@ -17,61 +17,73 @@
             </intent-filter>
         </activity>
         <activity
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:name=".RockActivity"
             android:configChanges="orientation"
             android:label="@string/activity_Rock"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:name=".RockAlbum1Activity"
             android:configChanges="orientation"
             android:label="@string/rock_album1"
             android:parentActivityName=".RockActivity" />
         <activity
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:name=".RockAlbum2Activity"
             android:configChanges="orientation"
             android:label="@string/rock_album2"
             android:parentActivityName=".RockActivity" />
         <activity
             android:name=".PopActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:configChanges="orientation"
             android:label="@string/activity_pop"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:name=".PopAlbum1Activity"
             android:configChanges="orientation"
             android:label="@string/pop_album1"
             android:parentActivityName=".PopActivity" />
         <activity
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:name=".PopAlbum2Activity"
             android:configChanges="orientation"
             android:label="@string/pop_album2"
             android:parentActivityName=".PopActivity" />
         <activity
             android:name=".MetalActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:configChanges="orientation"
             android:label="@string/activity_metal"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:name=".MetalAlbum1Activity"
             android:configChanges="orientation"
             android:label="@string/metal_album1"
             android:parentActivityName=".MetalActivity" />
         <activity
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:name=".MetalAlbum2Activity"
             android:configChanges="orientation"
             android:label="@string/metal_album2"
             android:parentActivityName=".MetalActivity" />
         <activity
             android:name=".HipHopActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:configChanges="orientation"
             android:label="@string/activity_hiphop"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:name=".HipHopAlbum1Activity"
             android:configChanges="orientation"
             android:label="@string/hiphop_album1"
             android:parentActivityName=".HipHopActivity" />
         <activity
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:name=".HipHopAlbum2Activity"
             android:configChanges="orientation"
             android:label="@string/hiphop_album2"
